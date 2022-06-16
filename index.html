@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YGN-Enterprise</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '51026');
+</script>
+<!-- End MailerLite Universal -->
+<meta name="google-site-verification" content="0tV0zkT13Ope0VVKRteraFA2US4Zlg0SRiAIM-M2f8U" />
+</head>
+<meta name="keywords" content="YGN, YungGreatnessNation, YGN enterprise, RealYungG, Real Yung G, Rap, Who is RealYungG, Who is Real Yung G" />
+<meta name="description" content="Welcome to YGNEnterprise.com. Find the lastest news around RealYungG. For any questions or future collabs, send an email to Marketing@YGNEnterprise.com" />
+<body>
+<div class="container">
+    <img src="/Images/YGNetnerprise-letters.png" class="logo">
+
+    <div class="content">
+        <p>Website Is Under Construction</p>
+        <h1>We're <span>Launching</span> Soon</h1>
+        <div class="launch-time">
+            <div>
+                <p id="days">00</p>
+                <span>Days</span>
+            </div>
+            <div>
+                <p id="hours">00</p>
+                <span>Hours</span>
+            </div>
+            <div>
+                <p id="minutes">00</p>
+                <span>Minutes</span>
+            </div>
+            <div>
+                <p id="seconds">00</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+        <button class="ml-onclick-form" onclick="ml('show', 'GTPwYc', true)">Email Sign Up</button>
+    </div>
+    <img src="/Images/rocket.png" class="rocket">
+</div>
+
+<script>
+    var countDownDate = new Date("June 23, 2022 00:00:00").getTime();
+    var x = setInterval(function(){
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+
+        if(distance < 0){
+            clearInterval(x);
+            document.getElementById("days").innerHTML = "00";
+            document.getElementById("hours").innerHTML = "00";
+            document.getElementById("minutes").innerHTML = "00";
+            document.getElementById("seconds").innerHTML = "00";
+        }
+
+    },1000)
+</script>
+    
+</body>
+</html>
